@@ -22,5 +22,104 @@ html{
  }
  body{
       font-family: 'Spartan', sans-serif;
-       font-size: 1.5rem;
+       font-size: 1.5rem; 
+           
  }
+ section.container{
+       width: 100%;
+       height: 100%;
+ }
+
+ /*/// Imagem elemento de background mobile ///*/
+ section.container img.img-mobile-top{
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+}
+section.container img.img-mobile-bottom{
+      display: block;
+      position: absolute;  
+      top: 100%;      
+      right: 0;      
+}
+
+ /*/// Imagem elemento de background desktop///*/
+ section.container img.img-desktop-top{
+      display: none;
+}
+ section.container img.img-desktop-bottom{
+      display: none;
+}
+
+main{
+      padding: 8rem 1.5rem;
+}
+section.left header h1{
+      font-size: 4rem;
+      text-align: center;
+      color:var(--Very-Dark-Magenta);
+      letter-spacing: -0.3rem;
+      line-height: 4rem;
+}
+section.left p{
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      color: var(--Dark-Grayish-Magenta);
+      padding: 2.5rem 0 3.5rem;
+      line-height: 2.5rem;
+}
+section.right .box-01,
+section.right .box-02,
+section.right .box-03{
+      background-color:var(--Light-Grayish-Magenta);
+      border-radius: 1rem;
+      text-align: center;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      color: var(--Very-Dark-Magenta);
+}
+section.right .stars{      
+      letter-spacing: 0.5rem;
+      margin-bottom: 1rem;
+}
+section.right .tittle h2{
+      font-size: 1.5rem;
+      font-weight: 600;      
+}
+article.testimonial-01,
+article.testimonial-02,
+article.testimonial-03{
+      background-color:var(--Very-Dark-Magenta);
+      border-radius: 1rem;
+      padding: 5rem 2rem 5rem 3.5rem ;
+      margin-bottom: 2rem;
+
+}
+article header{
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+}
+article header img{
+      border-radius: 50%;
+      width: 4.5rem;
+      margin-right: 3rem;
+}
+article header p:first-child{
+      color: var(--White);
+      font-weight: 600;
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+}
+article header p + p{
+      color: var(--Soft-Pink);
+      font-size: 1.5rem;
+}
+article .txt p{
+      color: var(--Light-Grayish-Magenta);
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+}
