@@ -1,23 +1,50 @@
 @media screen and (min-width: 750px){
        /*/// Imagem elemento de background mobile ///*/
- section.container img.img-mobile-top{
-       display: none;      
- }
- section.container img.img-mobile-bottom{
-       display: none;            
- }
- 
-  /*/// Imagem elemento de background desktop///*/
-  section.container img.img-desktop-top{
-       display: block;
-       position: absolute;      
-       top: 0;
-       left: 0;
- }
-  section.container img.img-desktop-bottom{
-       display: block;
-       position: absolute;  
-       top: 100%;      
-       right: 0;  
- }
+       section.container img.img-mobile-top{
+              display: none;      
+       }
+       section.container img.img-mobile-bottom{
+              display: none;            
+       }
+       
+       /*/// Imagem elemento de background desktop///*/
+       section.container img.img-desktop-top{
+              display: block;  
+              z-index: 0;           
+       }
+       section.container img.img-desktop-bottom{
+              display: none;              
+       }
+
+       main{
+              padding: 8rem 3rem;
+        }
+       section.content-top{
+              display: flex;
+              align-items: center;
+       }
+       section.content-top section.left,
+       section.content-top section.right{
+              flex: 1;
+       }
+       section.content-top section.left{
+              padding: 2rem;
+       } 
+       
+       section.content-bottom{
+              display: flex;
+              height: 56vh;              
+       }
+       article.testimonial-01,
+       article.testimonial-02,
+       article.testimonial-03{
+              flex: 1;
+              margin-top: 4rem;              
+       }
+       article.testimonial-01{
+              margin-right: 1rem;
+       }
+       article.testimonial-02{
+              margin-right: 1rem;
+       }
 }
