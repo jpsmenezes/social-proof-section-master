@@ -48,9 +48,15 @@ section.container img.img-mobile-bottom{
  /*/// Imagem elemento de background desktop///*/
  section.container img.img-desktop-top{
       display: none;
+      position: absolute;      
+      top: 0;
+      left: 0;
 }
  section.container img.img-desktop-bottom{
       display: none;
+      position: absolute;  
+      top: 100%;      
+      right: 0;  
 }
 
 main{

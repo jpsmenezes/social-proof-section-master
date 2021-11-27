@@ -1,0 +1,23 @@
+@media screen and (min-width: 750px){
+       /*/// Imagem elemento de background mobile ///*/
+ section.container img.img-mobile-top{
+       display: none;      
+ }
+ section.container img.img-mobile-bottom{
+       display: none;            
+ }
+ 
+  /*/// Imagem elemento de background desktop///*/
+  section.container img.img-desktop-top{
+       display: block;
+       position: absolute;      
+       top: 0;
+       left: 0;
+ }
+  section.container img.img-desktop-bottom{
+       display: block;
+       position: absolute;  
+       top: 100%;      
+       right: 0;  
+ }
+}
