@@ -57,7 +57,8 @@ section.container img.img-mobile-bottom{
  section.container img.img-desktop-bottom{
       display: none;
       position: absolute;           
-      right: 0;  
+      right: 0;     
+      top: 32%;
 }
 
 main{

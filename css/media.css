@@ -50,7 +50,7 @@
 }
 @media screen and (min-width: 1115px){
        section.container img.img-desktop-bottom{
-              display: block;              
+              display: block;                         
        }  
        section.content-top section.left{              
               flex: 0 0 500px;
@@ -83,7 +83,8 @@
        section.right .box-03{ 
               position: relative;            
               display: flex;
-              justify-content: left;                                       
+              justify-content: left; 
+              align-items: center;                                      
               width: 45rem;
               height: 6rem;   
               padding: 0;  
@@ -106,21 +107,31 @@
        margin:0 3rem;           
        } 
        .content-bottom{
-              display: flex;
-              width: 100%;             
+              display: flex;                          
               justify-content: space-between;
-              align-content: space-between;
-              background-color: rgb(11, 145, 29);
+              align-content: space-between;              
        }
        article .txt p{             
               font-size: 1.4rem;
         }
-        article.testimonial-01,
+       article.testimonial-01,
        article.testimonial-02,
        article.testimonial-03{
-       background-color:var(--Very-Dark-Magenta);
-       border-radius: 1rem;
-       padding: 4rem 2rem 4rem 3.5rem ;
-       margin-bottom: 2rem;
+              position: relative;
+              background-color:var(--Very-Dark-Magenta);
+              border-radius: 1rem;
+              padding: 4rem 2rem 4rem 3.5rem ;              
+       }
+       article.testimonial-01{
+              top: 0;
+              left: 0;
+       }
+       article.testimonial-02{
+              top: 2rem;
+              left: 0;
+       }
+       article.testimonial-03{
+              top: 4rem;
+              left: 0;
        }
 }
