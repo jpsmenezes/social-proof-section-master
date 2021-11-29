@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/socialproofsectionmaster-zzhtxVS-A9)
 - Live Site URL: [social-proof-section-master]( https://jpsmenezes.github.io/social-proof-section-master/)
 
 ## My process
