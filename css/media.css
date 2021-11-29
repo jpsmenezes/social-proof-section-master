@@ -15,12 +15,12 @@
        main{
               padding: 13rem 3rem;
         }
-       section.content-top{
-              width: 100%;
-              height: auto;
+       section.content-top{              
               display: flex;
               align-items: center;
-              justify-content: space-between;              
+              justify-content: space-between; 
+              width: 100%;
+              height: auto;             
        }
        section.content-top section.left,
        section.content-top section.right{
@@ -39,7 +39,7 @@
        article.testimonial-03{
               flex: 1;
               margin-top: 4rem; 
-              max-width: 350px;                     
+              width: 350px;                     
        }
        article.testimonial-01{
               margin-right: 2%;
@@ -52,9 +52,17 @@
        section.container img.img-desktop-bottom{
               display: block;              
        }  
-       section.content-top section.left{
-                 background-color: rgb(88, 13, 13);           
+       section.content-top section.left{              
+              flex: 0 0 500px;
+              padding: 0;          
        }   
+       section.content-top section.right{
+              flex: 0 0 540px;
+              height: 300px;
+              display: flex;
+              flex-direction: column;              
+              justify-content:center;       
+       }
        section.left header h1{
               font-size: 5rem;
               text-align: left;            
@@ -62,20 +70,57 @@
               max-width: 43rem;
         }
         section.left p{
-              font-size: 1.5rem;
+              font-size: 1.6rem;
               font-weight: 500;
               text-align: left;              
-              padding: 2.5rem 0 3.5rem 0;
+              padding: 1.5rem 0 3.5rem 0;
               line-height: 2.5rem;
-              max-width: 45rem;
+              max-width: 50rem;
         }
 
        section.right .box-01,
        section.right .box-02,
-       section.right .box-03{
+       section.right .box-03{ 
+              position: relative;            
               display: flex;
-              justify-content: center;
-              max-width: 450px;
+              justify-content: left;                                       
+              width: 45rem;
+              height: 6rem;   
+              padding: 0;  
+              margin-bottom: 2rem;                    
+       }  
+       section.right .box-01{              
+              top: 0;
+              left: 0;
+       }
+       section.right .box-02{              
+              top: 0;
+              left: 4.5rem;
+       }
+       section.right .box-03{              
+              top: 0;
+              left: 9rem;
+       }             
+       section.right .stars{      
+       letter-spacing: 0.4rem;
+       margin:0 3rem;           
        } 
-
+       .content-bottom{
+              display: flex;
+              width: 100%;             
+              justify-content: space-between;
+              align-content: space-between;
+              background-color: rgb(11, 145, 29);
+       }
+       article .txt p{             
+              font-size: 1.4rem;
+        }
+        article.testimonial-01,
+       article.testimonial-02,
+       article.testimonial-03{
+       background-color:var(--Very-Dark-Magenta);
+       border-radius: 1rem;
+       padding: 4rem 2rem 4rem 3.5rem ;
+       margin-bottom: 2rem;
+       }
 }
